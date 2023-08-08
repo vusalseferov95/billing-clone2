@@ -1,20 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Billing</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
-    <div class="grid-box">
 
-        <div class="grid-item">
+<body>
+    <!--Start Grid Box-->
+    <div
+        class="grid-box grid m0-auto pt-20 pb-20 pl-20 pr-20 w-1360 h-910 gtc-260-600-320 gtr-880 gap72 box-shadow grid-backround">
+
+        <div class="grid-item btlr32 bblr32">
+            <!--Start Page Left-->
             <div class="page-left">
-                <div class="profile-info">
+                <!--Start Profile-->
+                <div class="profile-info flex align-center jus-start gap15 pt-58 pl-38">
                     <div class="profile-pic">
                         <figure>
-                            <img src="assets/images/vusal.jpg" alt="profile-pic" class="icon icon-xl">
+                            <img src="assets/images/vusal.jpg" alt="profile-pic" class="icon icon-xl br-30">
                         </figure>
                     </div>
                     <div class="profile-text">
@@ -22,14 +28,56 @@
                         <span class="fs-14 fw-400 clr-sb">@vusalsafarov95</span>
                     </div>
                 </div>
+                <!--End Profile-->
+
+                <!--Start Navbar-->
+                <nav class="navbar flex flex-column align-start pt-58 pl-38 pr-16 gap15">
+
+                    <a href="#" class="navbar-link flex align-center jus-between gap10">
+                        <img src="assets/images/general.svg" alt="icon-general" class="icon icon-md">
+                        <span class="fs-14 fw-400 clr-sb">General</span>
+                    </a>
+
+                    <a href="#" class="navbar-link flex align-center jus-between gap10">
+                        <img src="assets/images/password.svg" alt="icon-password" class="icon icon-md">
+                        <span class="fs-14 fw-400 clr-sb">Password</span>
+                    </a>
+
+                    <a href="#" class="navbar-link flex align-center jus-between gap10">
+                        <img src="assets/images/message.svg" alt="icon-message" class="icon icon-md">
+                        <span class="fs-14 fw-400 clr-sb">Invitations</span>
+                    </a>
+
+                    <a href="#" class="navbar-link flex align-center jus-between gap10">
+                        <img src="assets/images/billing.png" alt="icon-billing" class="icon icon-md">
+                        <span class="fs-14 fw-400 clr-ab">Billing</span>
+                    </a>
+
+                    <a href="#" class="navbar-link flex align-center jus-between gap10">
+                        <img src="assets/images/apps.svg" alt="icon-general" class="icon icon-md">
+                        <span class="fs-14 fw-400 clr-sb">Apps</span>
+                    </a>
+                </nav>
+                <!--End Navbar-->
+
+                <!--Start Log-out-->
+                <div class="log-out flex align-center pl-22 mt-2">
+                    <a href="#" class="navbar-link flex align-center jus-start gap10">
+                        <img src="assets/images/log-out.svg" alt="icon-log-out" class="icon icon-md">
+                        <span class="fs-14 fw-400 clr-sb">Log out</span>
+                    </a>
+                </div>
+                <!--End Log-out-->
             </div>
         </div>
 
         <div class="grid-item">2</div>
 
-        <div class="grid-item">3</div>
+        <div class="grid-item btrr32 bbrr32">3</div>
 
     </div>
-    
+    <!--End Grid Box-->
+
 </body>
+
 </html>
