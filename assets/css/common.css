@@ -1,0 +1,38 @@
+.flex {
+    display: flex;
+}
+
+align-center {
+    align-items: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+br-20px {
+    border-radius: 20px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+fw-400 {
+    font-weight: 400;
+}
+
+fw-700 {
+    font-weight: 700;
+}
+
+.clr-ab {
+    color: var(--AmberBlack);
+}
+
+.clr-sb {
+    color: var(--SkyBlue);}
