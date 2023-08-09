@@ -30,6 +30,10 @@
     box-shadow: 0px 49px 32px -19px rgba(56, 56, 150, 0.15);
 }
 
+.box-shadow-red {
+    box-shadow: 0px 8px 19px 0px rgba(223, 223, 253, 0.60);
+}
+
 .grid-backround {
     background: linear-gradient(322deg, #F8F8FF 0%, #FFF 100%);
 }
@@ -61,6 +65,10 @@
     justify-content: start;
 }
 
+.jus-center {
+    justify-content: center;
+}
+
 .btlr32 {
     border-top-left-radius: 32px;
 }
@@ -77,8 +85,16 @@
     border-bottom-right-radius: 32px;
 }
 
+.br1px-solid255 {
+    border: 1px solid rgba(255, 255, 255, 0.50);
+}
+
 .br8 {
     border-radius: 8px;
+}
+
+.br-16 {
+    border-radius: 16px;
 }
 
 .br-30 {
@@ -91,6 +107,10 @@
 
 .fs-16 {
     font-size: 16px;
+}
+
+.fs-24 {
+    font-size: 24px;
 }
 
 .fs-32 {
@@ -117,6 +137,18 @@
     color: var(--SkyBlue);
 }
 
+.clr-rb {
+    color: var(--RedButton);
+}
+
+.clr-fff {
+    color: #FFF;
+}
+
+.padding32 {
+    padding: 32px 32px 32px 32px;
+}
+
 .pr-8 {
     padding-right: 8px;
 }
@@ -127,6 +159,10 @@
 
 .pr-20 {
     padding-right: 20px;
+}
+
+.pr-32 {
+    padding-right: 32px;
 }
 
 .pl-8 {
@@ -145,6 +181,10 @@
     padding-left: 22px;
 }
 
+.pl-32 {
+    padding-left: 32px;
+}
+
 .pl-38 {
     padding-left: 38px;
 }
@@ -153,8 +193,20 @@
     padding-top: 5px;
 }
 
+.pt-16 {
+    padding-top: 16px;
+}
+
 .pt-20 {
     padding-top: 20px;
+}
+
+.pt-24 {
+    padding-top: 24px;
+}
+
+.pt-32 {
+    padding-top: 32px;
 }
 
 .pt-50 {
@@ -169,8 +221,24 @@
     padding-top: 65px;
 }
 
+.pt-82 {
+    padding-top: 82px;
+}
+
+.pt-162 {
+    padding-top: 162px;
+}
+
 .pb-20 {
     padding-bottom: 20px;
+}
+
+.pb-24 {
+    padding-bottom: 24px;
+}
+
+.pb-32 {
+    padding-bottom: 32px;
 }
 
 .pb-38 {
@@ -188,6 +256,10 @@
     gap: 15px;
 }
 
+.gap26 {
+    gap: 26px;
+}
+
 .gap72 {
     gap: 72px;
 }
@@ -199,8 +271,32 @@
     margin-top: 430px;
 }
 
+.w-68 {
+    width: 68px;
+}
+
+.w-260 {
+    width: 260px;
+}
+
+.w-385 {
+    width: 385px;
+}
+
 .w-1360 {
     width: 1360px;
+}
+
+.h-25 {
+    height: 25px;
+}
+
+.h-38 {
+    height: 38px;
+}
+
+.h-220 {
+    height: 220px;
 }
 
 .h-910 {
@@ -209,6 +305,22 @@
 
 .back-tr {
     background: transparent;
+}
+
+.back-red {
+    background-color: var(--RedButton);
+}
+
+.back-pl {
+    background-color: #F8F8FF;
+}
+
+.br-none {
+    border: none;
+}
+
+.tdl-ul {
+    text-decoration-line: underline;
 }
 
 .br-01-sb {
